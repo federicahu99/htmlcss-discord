@@ -123,9 +123,18 @@ div p {
     height: 150px;
     width: 100%;
     text-align: center;
+    padding: 10px;
 }
 
 
+h2 {
+   font-size: 25px; 
+   margin-bottom: 20px;
+}
+
+#dowload-b  {
+    color: black
+}
 
 /* Piè di pagina */
 
