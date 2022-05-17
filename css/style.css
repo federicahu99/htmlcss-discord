@@ -8,26 +8,24 @@
     font-family: sans-serif;
 }
 
-/* ut */
-.f-white {
-    color: rgb(244, 242, 242)
-}
-
-.grey {
-
-}
-
 /* head */
 
-
+#background {
+    background-image: url('../img/jumbo.png');
+    height: 500px;
+    background-size: cover;
+}
 
 #container {
     width: 1100px;
     margin: 0 auto;
+    
+}
+
+#background {
 }
 
 #header-container {
-    background-color: rgb(124, 195, 239);
     width: 1100px;
     height: 500px;
     display: flex;
