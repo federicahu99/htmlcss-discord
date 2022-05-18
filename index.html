@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.css' integrity='sha512-1hsteeq9xTM5CX6NsXiJu3Y/g+tj+IIwtZMtTisemEv3hx+S9ngaW4nryrNcPM4xGzINcKbwUJtojslX2KG+DQ==' crossorigin='anonymous'/>
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discord</title>
 </head>
 <body>
-    <div id="container">
-            <header>
+    <header>
+        <div class="container">
                 <div id="header-container"> 
                     <nav> 
                         <div id="nav-container">
@@ -20,32 +21,39 @@
                                 <a href="">Nitro</a>
                                 <a href="">Sicurezza</a>
                                 <a href="">Assistenza</a>
-                            
                             </div> 
+
+<!--     bottoni con altezze diverse e non riesci a cambiare lo stile di 
+    quelli bianchi come se qualcosa avesse più valenza ma non sai dove sta   -->                           
                             <div id="button">
-                                <button><a href="">Accedi</a></button>
+                                <button class="">
+                                    <a href="" id="access">Accedi</a>
+                                </button>
                             </div>
                         </div>   
                     </nav>
+
                     <div id="header-paragrafo"> 
                         <h1>Il tuo posto per parlare</h1>
-                        <p id="p-head">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt odio, itaque sint expedita ratione dolores beatae! Voluptates vel fugit iste ut quidem modi, doloremque maxime corrupti minus quibusdam delectus error.</p>
-                        <button><a href="">&#11123; Scarica per Mac</a></button>
-                        <button><a href="">Apri Discord nel tuo browser</a></button>
+                        <p id="p-head">... dove far parte di un club scolastico, un gruppo di gamer, una community artistica mondiale o dove trascorrere tempo assieme a un piccolo gruppo di amici: uno spazio in cui è più facile chiacchierare ogni giorno e ritrovarsi più spesso..</p>
+                        <button ><a href="" id="dowload">&#11123; Scarica per Mac</a></button>
+                        <button id="dark-button"><a href="">Apri Discord nel tuo browser</a></button>
                     </div>
                 </div>   
+    </div>
    
-            </header>
+        </header>
 
+    <div class="container">
             <main> 
                 <section>
                         <div class="section-box">
                             <div class="section-img">
-                                <img src="img/item1.svg" alt="immagine spazio" id="img-paragrafo">
+                                <img src="img/item1.svg" alt="immagine spazio" class="img-paragrafo">
                             </div>
                             <div class="section-content">
                                 <h1>Un luogo a invito con tutto lo spazio necessario per parlare</h1>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ducimus ratione aliquid, voluptatem possimus similique repellat voluptatibus delectus harum magni et molestias! Sint fuga assumenda quisquam laborum sapiente totam. Repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+                                <p>I server Discord sono organizzati in canali tematici in cui puoi collaborare, condividere o semplicemente parlare della tua giornata senza intasare una chat di gruppo. </p>
                             </div>
                         </div>
                 </section>  
@@ -53,10 +61,10 @@
                     <div class="section-box">
                         <div class="section-content">
                             <h1>Dove trovarsi è facile</h1>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet nesciunt suscipit laboriosam ipsam. Facere est quae sed nam excepturi sunt dolorum repudiandae? Dolores vitae itaque ullam iste illum quaerat architecto?</p>
+                            <p>Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono vedere che sei lì e unirsi istantaneamente senza dover chiamare.</p>
                         </div>
                         <div class="section-img">
-                            <img src="img/item2.svg" alt="immagine voice connection" id="img-paragrafo">
+                            <img src="img/item2.svg" alt="immagine voice connection" class="img-paragrafo">
                         </div>
                     </div>
                 </section>  
@@ -64,11 +72,11 @@
                 <section>
                     <div class="section-box">
                         <div class="section-img">
-                            <img src="img/item3.svg" alt="immagine fandom" id="img-paragrafo">
+                            <img src="img/item3.svg" alt="immagine fandom" class="img-paragrafo">
                         </div>
                         <div class="section-content">
                             <h1>Da pochi ad un fandom</h1>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima cumque modi iste blanditiis non quidem, eaque voluptates neque nam cum molestias optio dolorem qui error. Odit eius ad magni aperiam!</p>
+                            <p>Dai inizio a una community con strumenti di moderazione e accesso ai membri personalizzabile. Concedi ai membri poteri speciali, crea canali privati e molto altro.</p>
                         </div>
                     </div>
                 </section>  
@@ -77,84 +85,105 @@
                     <div class="section-box big">
                         <div id="section-content-big">
                             <h1>Tecnologia affidabile per tenersi in contatto</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed accusantium ipsum dolor, laboriosam incidunt corporis. Iste aut tempore rerum quo optio. Commodi quam deserunt adipisci alias vero soluta illo voluptate.</p>
+                            <p>Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisione schermo.</p>
                         </div>
                         <div id="section-img-big">
                             <img src="img/item4-big.svg" alt="">
                         </div>
 
-                        <div id="dowload">
+                        <div id="dowloadmain">
                             <h2>Pronto ad iniziare l'avventura?</h2>
-                            <button>
-                                <a href="" id="download-b">&#11123; Scarica per Mac</a>
+                            <button id="lastbutton">
+                                <a href="" id="downloadsecond">&#11123; Scarica per Mac</a>
                             </button>
                         </div>
 
                     </div>
-                </section>  
-                        
-                </main>
-            </div>
+                </section>                 
+            </main>
+    </div>   
 
             <footer>
                 <div id="footer-box">
-                    <div class="container">
-                    <div class="column large"> 
-                        <h3>Il tuo posto per parlare</h3>
+                    <div class="container-footer">
+                        <div class="column large"> 
+                            <h2 id="titolo-footer">Il tuo posto per parlare</h2>
                         <div id="logo-ita">
-                        <img src="img/ita.png" alt="bandiera italia">
+                            <img src="img/ita.png" alt="bandiera italia">
+                            <span>Italiano <i class="fa-solid fa-caret-down"></i></span>
                         </div>
-                        <div id="icon-footer">Italiano &#129171;</div>
-                        <a href="">T</a>
-                        <a href="">F</a>
-                        <a href="">I</a>
-                        <a href="">Y</a>
+                        <div id="social">
+                            <span><a href=""><i class="fa-brands fa-twitter"></i></a></span>
+                            <span><a href=""><i class="fa-brands fa-facebook"></i></a></span>
+                            <span><a href=""><i class="fa-brands fa-instagram"></i></a></span>
+                            <span><a href=""><i class="fa-brands fa-youtube"></i></a></span>
+                        </div>
+                        </div>
+                    
+                    <div class="column">
+                        <ul>
+                            <li><h3>Prodotto</h3></li>
+                            <li><a href="">Scarica</a></li>
+                            <li><a href="">Perchè Discord</a></li>
+                            <li><a href="">Nitro</a></li>
+                            <li><a href="">Sicurezza</a></li>
+                            <li><a href="">Assistenza</a></li>
+                        </ul>
                     </div>
 
                     <div class="column">
-                        <h3>Compagnia</h3>
-                        <a href="">Lorem</a>
-                        <a href="">Lorem</a>
-                        <a href="">Lorem</a>
-                        <a href="">Lorem</a>
-                        <a href="">Lorem</a>
+                        <ul>
+                            <li><h3>Compagnia</h3></li>
+                            <li><a href="">Chi siamo</a></li>
+                            <li><a href="">Lavora con noi</a></li>
+                            <li><a href="">Marchio</a></li>
+                            <li><a href="">Redazione</a></li>
+                            <li><a href="">Negozio</a></li>
+                        </ul>
                     </div>
 
                     <div class="column">
-                        <h3>Risorse</h3>
-                        <a href="">Lorem</a>
-                        <a href="">Lorem</a>
-                        <a href="">Lorem</a>
-                        <a href="">Lorem</a>
-                        <a href="">Lorem</a>
-                        <a href="">Lorem</a>
-                        <a href="">Lorem</a>
-                        <a href="">Lorem</a>
-                        <a href="">Lorem</a>
-                        <a href="">Lorem</a>
+                        <ul>
+                            <li><h3>Risorse</h3></li>
+                            <li><a href="">Scarica</a></li>
+                            <li><a href="">Perchè Discord</a></li>
+                            <li><a href="">Nitro</a></li>
+                            <li><a href="">Sicurezza</a></li>
+                            <li><a href="">Assistenza</a></li>
+                            <li><a href="">Scarica</a></li>
+                            <li><a href="">Perchè Discord</a></li>
+                            <li><a href="">Nitro</a></li>
+                            <li><a href="">Sicurezza</a></li>
+                            <li><a href="">Assistenza</a></li>
+                            
+                        </ul>
                     </div>
 
                     <div class="column">
-                        <h3>Norme</h3>
-                        <a href="">Lorem</a>
-                        <a href="">Lorem</a>
-                        <a href="">Lorem</a>
-                        <a href="">Lorem</a>
-                        <a href="">Lorem</a>
-                    </div>
-
-                    <div class="column">
-                        <h3>Norme</h3>
-                        <a href="">Lorem</a>
-                        <a href="">Lorem</a>
-                        <a href="">Lorem</a>
-                        <a href="">Lorem</a>
-                        <a href="">Lorem</a>
+                        <ul>
+                            <li><h3>Norme</h3></li>
+                            <li><a href="">Scarica</a></li>
+                            <li><a href="">Perchè Discord</a></li>
+                            <li><a href="">Nitro</a></li>
+                            <li><a href="">Sicurezza</a></li>
+                            <li><a href="">Assistenza</a></li>
+                        </ul>   
                     </div>
                 </div>
-
                 
-            </div>
-             </footer>
+                <div class="container">   
+                <hr>
+                
+                    <div>
+                        <img src="img/logo.svg" alt="logo footer" id="logo-footer">
+                    </div>
+                    <div id="last">
+                        <button >
+                            <a href="" id="last-a">Registrati</a>
+                        </button>
+                    </div>
+                </div> 
+            </footer>
 </body>
 </html>
+

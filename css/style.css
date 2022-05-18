@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 16px;
     font-family: sans-serif;
 }
 
@@ -14,21 +13,26 @@
 .container {
     width: 1100px;
     margin: 0 auto;
-    
 }
 
 header{
     background-image: url('../img/jumbo.png');
     background-size: cover;
+    background-position: center;
+}
+
+#bg-blue {
+    background-color: blue;
+    height
 }
 
 #bgheader  {
-    height: 1500px;
+    height: 1550px;
 }
 
 #header-container {
     width: 1100px;
-    height: 500px;
+    height: 460px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -43,6 +47,10 @@ header{
     color: rgb(228, 236, 244);
 }
 
+#access , #dowload , #downloadsecond {
+    color: black;
+}
+
 /* head nav*/
 #nav-container {
     width: 1100px;
@@ -53,54 +61,65 @@ header{
 
 #logo img{
     height: 60px;
-    
 }
 
 a {
     text-decoration: none;
     margin: 10px;
     color: white;
-
 }
 
 button {
     border: none;
     padding: 10px 15px;
     border-radius: 29px;
-    margin-left: 15px;
+    margin: 0 5px;
 }
-
 
 header h1 {
     font-size: 50px;
-    margin: 20px
+    margin: 20px;
 }
 
 #p-head {
-    border-bottom: 20px;
+    height: 120px;
+    margin-bottom: 20px;
+}
+
+#dark-button {
+    background-color: rgb(35, 39, 42);
+    font-size: 16px;
+}
+
+#lilac-button {
+    color:black;
+    font-size: 16px;
 }
 
 /*main*/
 
 .section-box {
     height: 700px;
-    margin-bottom: 1px;
     display:flex;
     align-items: center;
+    padding-top: 30px;
 }
 
 main h1 {
-    font-size: 42px;
+    font-size: 37px;
+    padding-bottom: 20px;
 }
 
 div p {
     font-size: 20px;
+    line-height: 150%;
 }
 
 
 .section-content {
-    width: 35%;
-    vertical-align: middle;
+    width: 40%;
+    height: 400px;
+    line-height: 260%;
 }
 
 .section-img {
@@ -127,50 +146,97 @@ div p {
     padding: 10px;
 }
 
-
 h2 {
    font-size: 25px; 
-   margin-bottom: 20px;
 }
 
-#dowload-b  {
-    color: black
+#lastbutton {
+    margin: 20px auto; 
 }
-
 
 /* Piè di pagina */
 
 #footer-box {
-    min-height: 250;
     width: 100%;
     background-color: rgb(35, 39, 42);
+    align-items: stretch;
+    min-height: 600px;
+
+}
+
+.container-footer {
+    width: 1100px ;
+    margin: 0 auto;
+    padding: 40px;
     display: flex;
-    flex-direction: column;
     justify-content:space-between;
+    flex-direction: row;
 }
-
-#logo-ita {
-    height: 3px;
-}
-
-
 
 .column {
-    min-width: 15%;
-    Padding: 20px;
     display: flex;
     flex-direction: column;
+    
 }
 
 .large {
-    flex-direction: row;
-    width: 20%;
-}
-
-#icon-footer {
-
+    display: flex;
+    flex-direction: column;
+    width: 30%;
 }
 
 h3 {
     color: rgb(110, 132, 210)
+}
+
+footer div > img{
+    width: 20px;
+}
+
+#titolo-footer {
+    color: rgb(110, 132, 210);
+    font-size: 30px;
+ }
+
+
+#footer-line {
+    border: 3px solid rgb(110, 132, 210);
+}
+
+i {
+    height: 11px;
+    margin-top: 20px;
+}
+
+span {
+    color: white;
+    margin
+}
+
+
+li {
+    list-style-type: none;
+    line-height: 190%;
+    margin-left: 1px;
+    padding-right: 0px;
+}
+
+ul {
+    padding-right: 0;
+}
+
+hr {
+    margin: 4px solid rgb(110, 132, 210);
+    margin: 0 auto;
+    width: 1100px;
+}
+
+#logo-footer {
+    width: 120px;
+    height: 120px;
+}
+
+#last-a {
+    color: black;
+    float: right;
 }
