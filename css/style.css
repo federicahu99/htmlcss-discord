@@ -7,6 +7,38 @@
     font-family: sans-serif;
 }
 
+a {
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+}
+
+h2 {
+    font-size: 25px; 
+}
+
+button {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 29px;
+    margin: 0 5px;
+}
+
+i {
+    height: 11px;
+    margin-top: 20px;
+}
+
+span {
+    color: white;
+}
+
+
+li {
+    list-style-type: none;
+    line-height: 190%;
+}
+
 /* head */
 
 
@@ -23,7 +55,6 @@ header{
 
 #bg-blue {
     background-color: blue;
-    height
 }
 
 #bgheader  {
@@ -61,19 +92,6 @@ header{
 
 #logo img{
     height: 60px;
-}
-
-a {
-    text-decoration: none;
-    margin: 10px;
-    color: white;
-}
-
-button {
-    border: none;
-    padding: 10px 15px;
-    border-radius: 29px;
-    margin: 0 5px;
 }
 
 header h1 {
@@ -146,13 +164,15 @@ div p {
     padding: 10px;
 }
 
-h2 {
-   font-size: 25px; 
+
+#downloadmain {
+    text-align: center;
 }
 
 #lastbutton {
     margin: 20px auto; 
 }
+
 
 /* Piè di pagina */
 
@@ -186,7 +206,8 @@ h2 {
 }
 
 h3 {
-    color: rgb(110, 132, 210)
+    color: rgb(110, 132, 210);
+    margin-left: 10px
 }
 
 footer div > img{
@@ -203,27 +224,6 @@ footer div > img{
     border: 3px solid rgb(110, 132, 210);
 }
 
-i {
-    height: 11px;
-    margin-top: 20px;
-}
-
-span {
-    color: white;
-    margin
-}
-
-
-li {
-    list-style-type: none;
-    line-height: 190%;
-    margin-left: 1px;
-    padding-right: 0px;
-}
-
-ul {
-    padding-right: 0;
-}
 
 hr {
     margin: 4px solid rgb(110, 132, 210);
@@ -236,7 +236,12 @@ hr {
     height: 120px;
 }
 
-#last-a {
-    color: black;
-    float: right;
+#black {
+    color: black;  
+}
+
+#registration-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
